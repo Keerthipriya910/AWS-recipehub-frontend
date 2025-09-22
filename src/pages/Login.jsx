@@ -40,7 +40,7 @@ const Login = () => {
 
     setLoading(true);
 
-    axios.post('http://localhost:8082/login', {
+    axios.post('http://54.226.143.26:8082/login', {
       username: formData.username,
       password: formData.password
     })
